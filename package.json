@@ -14,31 +14,31 @@
     "type-check": "tsc --pretty --noEmit --incremental false"
   },
   "dependencies": {
-    "@discordx/importer": "^1.1.10",
-    "@discordx/utilities": "^5.1.0",
-    "discord.js": "^14.6.0",
-    "discordx": "^11.4.0",
-    "dotenv": "^16.0.3",
+    "@discordx/importer": "^1.2.2",
+    "@discordx/utilities": "^5.2.1",
+    "discord.js": "^14.11.0",
+    "discordx": "^11.7.6",
+    "dotenv": "^16.1.4",
     "reflect-metadata": "^0.1.13",
     "simple-json-db": "^2.0.0",
-    "winston": "^3.8.2"
+    "winston": "^3.9.0"
   },
   "devDependencies": {
-    "@types/node": "^18.11.7",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
-    "eslint": "^8.26.0",
+    "@types/node": "^20.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
     "pretty-quick": "^3.1.3",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
-    "tslib": "^2.4.0",
-    "typescript": "^4.8.4"
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
   },
   "lint-staged": {
     "*.@(js|jsx|ts|tsx)": "npm run lint-fix",
