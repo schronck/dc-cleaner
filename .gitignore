@@ -1,0 +1,6 @@
+build/
+node_modules/
+
+.env
+database.json
+.vscode

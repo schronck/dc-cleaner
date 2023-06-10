@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  cleaner:
+    container_name: cleaner
+    build:
+      context: .
+    image: cleaner:latest
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./db:/app/db
